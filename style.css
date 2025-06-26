@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+        box-shadow: 0 0 1rem black;
+        width: 50%;
+        height: 100%;
+        font-size: 12vh;
+        border-radius: 1rem;
+        p{
+            text-align: center;
+        }
+    }
+}
+.container:hover{
+    transform: scale(1.01);
+    p{
+        text-shadow: 0 0 1rem rgb(83, 81, 70);
+    }
+}
